@@ -1,0 +1,11 @@
+/* Arquivo principal que importa todos os outros arquivos CSS */
+@import "./variables.css";
+@import "./globals.css";
+
+/* Importa os componentes específicos */
+@import "./components/navbar.css";
+@import "./components/header.css";
+@import "./components/about.css";
+@import "./components/skills.css";
+@import "./components/projects.css";
+@import "./components/footer.css";

@@ -1,0 +1,18 @@
+/* Definição das variáveis CSS globais para cores e fontes */
+:root {
+  /* Cores básicas */
+  --white: #ffffff;
+  --gray: #d9d9d9;
+  --black: #000000;
+
+  /* Paleta de cores principal do site (tons de verde) */
+  --primary-color: #02073e;
+  --secondary-color: #0f2137;
+  --dark-secondary-color: #3c415c;
+  --tertiary-color: #a6b1e1;
+  --light-tertiary-color: #f3f6fb;
+  --text-color: #343d48;
+
+  /* Família de fontes principal */
+  --font-family: "DM Sans", sans-serif;
+}

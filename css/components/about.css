@@ -1,0 +1,54 @@
+/* Layout flexbox para alinhar conteúdo lado a lado */
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+/* Lado esquerdo com título e redes sociais */
+.about .about__left {
+  max-width: 40rem;
+  flex: 1;
+}
+
+.about .about__left p {
+  margin: 1rem 0 2rem;
+}
+
+/* Ajuste para os ícones de redes sociais */
+.about .about__left ul {
+  margin-left: -1.2rem;
+}
+
+.about .about__left ul li {
+  display: inline-block;
+}
+
+.about .about__left ul li a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+/* Lado direito com texto sobre o desenvolvedor */
+.about .about__right {
+  flex: 1;
+  max-width: 66rem;
+}
+
+/* Responsividade - empilha elementos em telas menores */
+@media only screen and (max-width: 880px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .about__left {
+    max-width: 66rem;
+    text-align: center;
+  }
+
+  .about .about__right {
+    text-align: center;
+  }
+}
